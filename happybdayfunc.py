@@ -8,10 +8,8 @@ if day == "y":
         print(f"You are {age} years old")
         print("Wish you to have a long life")
 
-    name = input("Enter Your Name: ")
-    age = input("Enter your Age: ")
-    HappyBirthday(name,age)
-    
+    HappyBirthday(input("Enter Your Name: "),input("Enter your Age: "))
+
 elif day == "n":
     print("Okay! Have a Great Day")
 else :
